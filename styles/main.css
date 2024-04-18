@@ -1,0 +1,507 @@
+/* MAIN */
+.main {
+    margin-top: 162px;
+    background-color: var(--background);
+}
+
+.features {
+    margin-top: 10%;
+    margin-bottom: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_text, 
+.main_under_text {
+    color: white;
+    width: 35%;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 0.2px;
+    font-weight: 500px;
+    font-family: "RobotoB sans-serif";
+}
+
+.main_text {
+    margin-bottom: 10px;
+}
+
+.main_under_text {
+    margin-bottom: 80px;
+}
+
+.main_under_text {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.main_features_photo {
+    display: flex; 
+
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main_features_photos {
+    flex-shrink: 0;
+    margin-left: 230px;
+}
+
+.features_content {
+    display: flex;
+}
+
+.features_content > span {
+    margin-left: 15px;
+    color: white;
+    width: 25%;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: "RobotoB" sans-serif;
+    letter-spacing: 0.1px;
+}
+
+.list_feature {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.features_block {
+    width: 50%;
+    text-align: left;
+    color: white;
+    margin-bottom: 50px;
+
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "RobotoL" sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.section_block {
+    margin-left: 20px;
+}
+
+.main_features_photo ul li {
+    /* Через list-style-type можно контролировать маркеровку списка. */
+    list-style-type: none;
+    color: white;
+}
+
+.text_list {
+    margin-top: 35px;
+    
+    display: inline-block;
+
+    width: 30%;
+
+    padding-left: 12px;
+    font-family: "RobotoB" sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
+
+.main_text_feature {
+    display: inline-block;
+    width: 45%;
+}
+
+.block_feature {
+    display: flex;
+    align-items: center;
+}
+
+.block_features {
+    display: flex;
+}
+
+.photo_feature {
+    margin-left: 350px;
+    flex-shrink: 0;
+}
+
+/* CONTENT */
+
+.block_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p {
+    margin-bottom: 30px;
+}
+
+.content_text, 
+.content_text_under {
+    color: white;
+    font-family: "RobotoB" sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+}
+
+.content_text {
+    margin-bottom: 10px;
+}
+
+.content_text_under{
+    font-family: "RobotoM" sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+
+    width: 26%;
+    text-align: center;
+    
+    margin-bottom: 44px;
+}
+
+.block_contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.block_one, .block_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    width: 476px;
+    border-radius: 33px;
+    border: 1 solid gray;
+    padding: 40px;
+}
+
+.black {
+    color: black;
+}
+
+.block_one {
+    margin-right: 33px;
+}
+
+.block_text {
+    font-family: "RobotoM" sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
+
+.block_texts {
+    color: rgb(97, 106, 122);
+
+    font-family: "RobotoB" sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+    text-align: center;
+    width: 50%;
+    margin-bottom: 57px;
+}
+
+.block_texts_two {
+    color: rgba(136, 149, 170, 1);
+
+    font-family: "RobotoB" sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+    text-align: center;
+    width: 50%;
+}
+
+.photo_macbook {
+    margin-top: 57px
+}
+
+.photo_desing {
+    width: 379px;
+    height: 276px;
+    border-radius: 14px;
+
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.padding_block {
+    margin-top: 15px;
+}
+
+.gallry_text,
+.gallery_text_under{
+    color: white;
+    font-family: "RobotoB" sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+}
+
+.gallry_text {
+    margin-top: 160px;
+    margin-bottom: 10px;
+}
+
+.gallery_text_under {
+    font-family: "RobotoM" sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+
+    width: 26%;
+    text-align: center;
+    
+    margin-bottom: 44px;
+}
+
+.gallery_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_one_gallery, .block_two_gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding_gallery {
+    /* Мы от объекта отодвигаем все элементы, и по этому background становится больше, и ему
+        можно устанавливать цвет. */
+    padding: 15px;
+}
+
+.gallery_one, .gallery_two, .gallery_three, .gallery_four, .gallery_six {
+    width: 225px;
+    height: 285px;
+    transition: transform 0.3s ease
+}
+
+.gallery_five {
+    width: 395px;
+    height: 285px;
+    transition: transform 0.3s ease;
+}
+
+.gallery_seven {
+    width: 401px;
+    height: 285px;
+    transition: transform 0.3s ease;
+}
+
+/* Если мы применяем правила к нескольким тегам нужно их прописывать в столбик. */
+.gallery_one:hover,
+.gallery_two:hover,
+.gallery_three:hover,
+.gallery_four:hover,
+.gallery_five:hover,
+.gallery_six:hover,
+.gallery_seven:hover {
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #383535 66.15%); */
+    /* border-radius: 20px; */
+    transform: scale(1.1);
+    cursor: pointer;
+    /* border-radius: 14px; */
+}
+
+.padding_see_more {
+    margin-top: 44px;
+}
+
+/* PARTNERS */
+
+.partners {
+    margin-top: 30px;
+}
+
+.block_text_partnersf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_partners {
+    color: white;
+    font-family: "RobotoB" sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+}
+
+.partnets_photo {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.partnets_photo  img {
+    padding-right: 10px;
+    padding-left: 100px;
+
+    transition: transform 0.3s ease;
+}
+
+.partnets_photo img:hover {
+    transform: scale(1.2);
+}
+
+.button_partners {
+    display: flex;
+    justify-content: center
+}
+
+.padding_all_partners {
+    margin-top: 50px
+}
+
+
+/* USERS */
+.block_user {
+    margin-top: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_user_one {
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+}
+
+.block_user_two {
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+}
+
+.text_users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_one, .user_two, .user_three, .user_four {
+    width: 430px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.user_one, .user_three {
+
+    margin: 10px;
+
+    height: 328px;
+    
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    transition: border 0.2s ease;
+}
+
+.user_two, .user_four {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    height: 304px;
+    padding: 15px;
+
+    transition: border 0.2s ease;
+}
+
+.user_one:hover, .user_two:hover, .user_three:hover, .user_four:hover {
+    border: 1px solid white;
+}
+
+.logo_user_one {
+    display: flex;
+}
+
+.logo_texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.span_text {
+    color: white;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    font-family: "RobotoB";    
+    
+    margin-left: 20px;
+    margin-top: 10px;
+
+    font-weight: 100;
+}
+
+.main_span_text {
+    font-weight: bolder;
+}
+
+.text_logo {
+    /* margin-left: 30px; */
+    margin-top: 50px;
+
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+    width: 65%;
+
+    line-height: 30px;
+}
+
+.block_text_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_user_one {
+    margin-left: 70px;
+}

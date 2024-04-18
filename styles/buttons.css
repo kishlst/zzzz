@@ -1,0 +1,65 @@
+/* Лучше прописывать классы в столбик. */
+.primary, 
+.secondary {
+    color: white;
+    background-color: rgba(68, 82, 254, 1);
+    border: none;
+
+    padding: 13px 46px;
+
+    font-family: RobotoM sans-serif;
+    font-size: 17px;
+
+    /* Свойство cursor можно использовать при настройке объектов, а не при работе свойства hover. */
+    cursor: pointer;
+}
+
+.primary {
+    transition: transform 0.3s ease;
+}
+
+.animation {
+    transition: transform 0.3s ease;
+}
+
+.animation:hover {
+    transform: scale(1.1)
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid white;
+
+    /* Что бы кнопки были одинаковыми, нужно уменьшить высоту padding в кнопке в которой есть border. */
+    padding: 19px 39px;
+}
+
+.primary:hover, .secondary:hover {
+    opacity: 0.7;
+}
+
+.primary:hover {
+    transform: scale(1.1);
+    /* Первое значение обозначает высоту, второе ширину. */
+    /* padding: 20px 40px;
+    border: 1px solid rgb(34, 42, 126); */
+}
+
+.seemore {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+
+    padding: 13.5px 40px;
+
+    font-family: RobotoM sans-serif;
+    font-size: 17px;
+
+    /* Свойство cursor можно использовать при настройке объектов, а не при работе свойства hover. */
+    cursor: pointer;
+}
+
+.seemore:hover {
+    opacity: 0.7;
+}
+

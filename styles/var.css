@@ -1,0 +1,7 @@
+:root {
+    /* Если у дочернего класса создана переменная тогда дети тоже имеют к ней доступ. */
+    --background: rgba(24, 24, 24, 1);
+    --font-L: "RobotoL sans-serif";
+    --font-R: "RobotoR sans-serif";
+    --font-B: "RobotoB sans-serif";
+}

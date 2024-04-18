@@ -1,0 +1,121 @@
+*::selection {
+    color: gray;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background);
+}
+
+.logo_figma {
+    width: 186px;
+    height: 58px;
+}
+
+.figma-land {
+    display: none;
+}
+
+/* Нужно говорить изменения к определенному блоку. */
+.header_main {
+    padding: 15px;
+
+    display: flex;
+    flex-shrink: 0;
+
+    height: 119px;
+
+    align-items: center;
+    justify-content: space-around;
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.link {
+    /* background: transparent; */
+    width: 700px;
+    margin: 2%;
+    background: transparent;
+    flex-shrink: 0;
+}
+
+.link > a {
+
+    text-decoration: none;
+
+    justify-content: space-around;
+
+    margin-left: 14%;
+
+    transition: color 0.5s ease;
+    transition: transform 0.5s ease;
+
+    color: white;
+}
+
+.link > a:hover {
+    background-color: transparent;
+}
+
+.header_text, .header_photo {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    /* Градиен хранится в bacground. */
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%); */
+    margin-bottom: 40px;
+}
+
+.work_text, .under_text {
+    color: white;
+    width: 35%;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 0.2px;
+    font-weight: 500px;
+    font-family: RobotoL sans-serif;
+
+    /* Обязательно при работе font-family ставить подстраховку.
+    Подстраховка в виде второго шрифта -> sans-serif*/
+    /* font-family: RobotoL sans-serif; */
+}
+
+.work_text {
+    margin-bottom: 17px;
+    width: 40%;
+}
+
+.under_text {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.header_buttons {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+}
+
+.padding_buttons {
+    margin-right: 20px;
+}
+
+.header_photo {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+.imgs {
+    margin-bottom: 20px;
+}
+
+/* Код main */
